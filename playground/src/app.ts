@@ -25,6 +25,11 @@ function start() {
     Navigation.dismissAllModals();
     setRoot();
   });
+  Navigation.setDefaultOptions({
+    layout: {
+      backgroundColor: 'rgba(255,0,0, .5)',
+    },
+  });
 }
 
 function setRoot() {
